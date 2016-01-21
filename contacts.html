@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+ <script>
+  (function(){
+    if(window.BOOMR && window.BOOMR.version){return;}
+    var dom,doc,where,iframe = document.createElement('iframe'),win = window;
+  
+    function boomerangSaveLoadTime(e) {
+      win.BOOMR_onload=(e && e.timeStamp) || new Date().getTime();
+    }
+    if (win.addEventListener) {
+      win.addEventListener("load", boomerangSaveLoadTime, false);
+    } else if (win.attachEvent) {
+      win.attachEvent("onload", boomerangSaveLoadTime);
+    }
+  
+    iframe.src = "javascript:false";
+    iframe.title = ""; iframe.role="presentation";
+    (iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
+    where = document.getElementsByTagName('script')[0];
+    where.parentNode.insertBefore(iframe, where);
+  
+    try {
+      doc = iframe.contentWindow.document;
+    } catch(e) {
+      dom = document.domain;
+      iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
+      doc = iframe.contentWindow.document;
+    }
+    doc.open()._l = function() {
+      var js = this.createElement("script");
+      if(dom) this.domain = dom;
+      js.id = "boomr-if-as";
+      js.src = '//c.go-mpulse.net/boomerang/' +
+      'BJD8A-NFZS2-P54Z5-94RB5-D6FCG';
+      BOOMR_lstart=new Date().getTime();
+      this.body.appendChild(js);
+    };
+    doc.write('<body onload="document._l();">');
+    doc.close();
+  })();
+</script>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/touchTouch.css">
+<!-- <link rel="stylesheet" href="css/camera.css"> -->
+<link rel="stylesheet" href="css/style.css">
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#camera_wrap').camera({
+    loader: false,
+    pagination: false ,
+    minHeight: '400',
+    thumbnails: true,
+    height: '46.32478632478632%',
+    caption: false,
+    navigation: false,
+    fx: 'mosaic'
+  });
+  $('.gallery .gall_item').touchTouch();
+ });
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<div class="main">
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h2><span>
+        Impressum<br/>
+      <h2><span>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container_12">
+        <div class="grid_12">
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li><a href="index.html">Home</a></li>
+               <li ><a href="hintergrund.html">Hintergrund</a></li>
+               <li><a href="donate.html">Jetzt spenden!</a></li>
+               <li><a href="staff.html">Wer wir sind</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="danke.html">Wir sagen DANKE!</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>
+         <div class="clear"></div>
+     </div>
+     <div class="clear"></div>
+    </div>
+  </section>
+</header>
+<!--=====================
+          Content
+======================-->
+<section id="content">
+  <div class="container_12">
+  <!-- Trenner -->
+  <div class="container_12">
+    <div class="grid_12"> 
+      <br/>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+ <div class="container_12">
+    <div class="grid_12">
+      <h4 class="inset__1">Wer steckt hinter Erstmal Mensch?</h4>
+ 
+
+    <div class="grid_12">
+<h5>Angaben gemäß §&thinsp;5 TMG</h5>
+<p class="color1">Erstmal Mensch (e.&thinsp;V. in Gründung/Finanzamt München)<br/>
+			Dall'Armi Str. 44<br/>
+			80638 München<br/><p/>
+<h5>Vertreten durch</h5>
+<p>Timea Kovacs</p>
+<h5>Kontakt</h5>
+<p>Telefon: 0172-1333191<br/>
+E-Mail: <a href="mailto:info@erstmal-mensch.org">info@erstmal-mensch.org</a></p>
+<h5>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h5>
+<p>Peter Dweik</p>
+
+    </div>
+ </div>  <!-- Trenner -->
+  <div class="container_12">
+    <div class="grid_12"> 
+      <br/>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<div class="footer-top">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="sep-1"></div>
+    </div>
+    <div class="grid_4">
+      <address class="address-1"> <div class="fa fa-home"></div>Dall'Armi Str. 44, 80638 München <br> Germany</address>
+    </div>
+    <div class="grid_3">
+      <a href="mailto:info@erstmal-mensch.org" class="mail-1"><span class="fa fa-envelope"></span>info@erstmal-mensch.org</a>
+    </div>
+    <div class="grid_4 fright">
+      <div class="socials">
+        <a itemprop="sameAs" href="http://facebook.com/erstmalmensch"><span>Facebook</span></a>
+<!--        <a href="#">twitter/erstmalmensch</a> -->
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!--==============================
+              footer
+=================================-->
+</div>
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="sub-copy"><a class="current" href="contacts.html">Impressum</a>&nbsp;| <a href="datenschutzerklaerung.html">Datenschutzerklärung</a></div>
+      <div class="sub-copy">Erstmal Mensch &copy;</div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+<a href="#" id="toTop" class="fa fa-angle-up"></a>
+</body>
+</html>
